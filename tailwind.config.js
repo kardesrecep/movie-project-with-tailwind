@@ -5,9 +5,9 @@ module.exports = {
 		container: {
 			center: true,
 			screens:{
-				lg: "1124px",
-				xl: "1124px",
-				"2xl": "1124px",
+				lg: "1140px",
+				xl: "1140px",
+				"2xl": "1140px",
 			}
 		},
 		extend: {
@@ -21,6 +21,11 @@ module.exports = {
 				"movie-grey": "#DDDDDD",
 				"movie-white": "#F7F7F7",
 			},
+
+			spacing:{
+				"128": "32rem"
+				
+			}
 		},
 	},
 	plugins: [],
